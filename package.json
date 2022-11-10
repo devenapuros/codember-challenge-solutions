@@ -1,0 +1,22 @@
+{
+    "name": "codember-challenges",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devenapuros/codember-challenge-solutions.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/devenapuros/codember-challenge-solutions/issues"
+    },
+    "homepage": "https://github.com/devenapuros/codember-challenge-solutions#readme",
+    "devDependencies": {
+        "eslint": "^8.27.0"
+    }
+}

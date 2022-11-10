@@ -1,6 +1,6 @@
 # Reto 1: ¡Arregla Twitter! 🐦
 
-**Problema:**
+## Problema
 
 Twitter ha sido comprado y quieren eliminar los bots 🤖. Te han pedido ayuda para detectar el número de usuarios en su base de datos que tienen datos corruptos.
 

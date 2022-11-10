@@ -1,4 +1,4 @@
-const fs = require("fs/promises");
+import fs from "fs/promises";
 
 fs.readFile("./users.txt", { encoding: "utf8" })
     .then((data) => filterUsers(data))
@@ -8,8 +8,7 @@ fs.readFile("./users.txt", { encoding: "utf8" })
 
 const filterFields = (userStr) => {
     let userObject = {};
-    let userArray = userStr.replaceAll("\n", " ");
-    userArray = userArray.split(" ");
+    let userArray = userStr.replaceAll("\n", " ").split(" ");
     userArray.forEach((field) => {
         let fieldsArray = field.split(":");
         userObject = { ...userObject, [fieldsArray[0]]: fieldsArray[1] };
