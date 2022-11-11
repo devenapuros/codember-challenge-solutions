@@ -2,6 +2,7 @@
   <div align="center">
     <img alt="Codember challenge 2022 by midudev" src="./assets/og.png"/>
   </div>
+  <br/>
   Soluciones al Codember Challenge 2022 👨‍💻 
 </h1>
 <br/>
