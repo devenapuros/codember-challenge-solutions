@@ -1,6 +1,6 @@
 <h1 align="center">
   <div align="center">
-    <img alt="Codember challenge 2022 by midudev" src="./assets/og.png" height="150px" width="auto"/>
+    <img alt="Codember challenge 2022 by midudev" src="./assets/og.png"/>
   </div>
   Soluciones al Codember Challenge 2022 👨‍💻 
 </h1>
