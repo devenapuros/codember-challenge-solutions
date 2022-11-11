@@ -48,8 +48,11 @@ Ahora que ya sabes esto, usa este input para detectar los usuarios incorrectos: 
 -   Los usuarios pueden estar repetidos, pero no importa, siguen siendo válidos.
 -   Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
 
----
 
-## Cómo enviar la solución
+## Probar la solución
 
-Usa el comando "submit" para enviar tu solución con el número de usuarios correctos + el nombre del último usuario válido. Por ejemplo: `$ submit 482@midudev`
+Si quieres probar la solucion a este reto haz un `clone` a este repo o descarga el código. Luego ejecuta el siguiente commando:
+
+```
+node challenge-01
+```
