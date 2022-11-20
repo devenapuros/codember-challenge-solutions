@@ -10,21 +10,9 @@
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        "indent": ["warn", 4],
+        "quotes": ["warn", "double"],
+        "semi": ["warn", "always"],
+        "no-unused-vars": ["warn"]
     }
 }

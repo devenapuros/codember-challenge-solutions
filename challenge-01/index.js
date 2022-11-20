@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 
-fs.readFile("./users.txt", { encoding: "utf8" })
+fs.readFile("challenge-01/users.txt", { encoding: "utf8" })
     .then((data) => filterUsers(data))
     .catch((err) => {
         throw err;
@@ -9,6 +9,8 @@ fs.readFile("./users.txt", { encoding: "utf8" })
 const filterFields = (userStr) => {
     let userObject = {};
     let userArray = userStr.replaceAll("\n", " ").split(" ");
+    
+    // TODO: Change the following for Object.entries
     userArray.forEach((field) => {
         let fieldsArray = field.split(":");
         userObject = { ...userObject, [fieldsArray[0]]: fieldsArray[1] };
