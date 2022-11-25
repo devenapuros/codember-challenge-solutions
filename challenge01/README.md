@@ -40,19 +40,19 @@ El cuarto usuario SÍ es válido ✅. Tiene todos los campos.
 
 Ahora que ya sabes esto, usa este input para detectar los usuarios incorrectos: https://codember.dev/users.txt
 
-**Pistas:**
+### Pistas
 
--   Los datos pueden estar en cualquier orden.
--   Los datos pueden estar en la misma línea o separados por líneas.
--   Los usuarios se separan por un salto de línea en blanco.
--   Los usuarios pueden estar repetidos, pero no importa, siguen siendo válidos.
--   Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
+* Los datos pueden estar en cualquier orden.
+* Los datos pueden estar en la misma línea o separados por líneas.
+* Los usuarios se separan por un salto de línea en blanco.
+* Los usuarios pueden estar repetidos, pero no importa, siguen siendo válidos.
+* Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
 
 
 ## Probar la solución
 
-Si quieres probar la solucion a este reto haz un `clone` a este repo o descarga el código. Luego ejecuta el siguiente commando:
+Si quieres probar la solución a este reto haz un `clone` a este repo o descarga el código. Luego ejecuta el siguiente commando:
 
 ```
-node challenge-01
+node challenge01
 ```

@@ -1,41 +1,39 @@
-# Challenge 2: Catch those cybercriminals! 🕵
+# Reto 2: Atrapar a los ciberdelincuentes! 🕵
 
-## Problem
+## Problema
 
-A group of cybercriminals has been using encrypted messages to communicate. The FBI has asked us for help to decipher them.
+Un grupo de ciber criminales están usando mensajes encriptados para comunicarse. El FBI nos ha pedido ayuda para descifrarlos.
 
-The messages are text strings that include very long integers and spaces. Although the numbers don't seem to make sense... a girl called Alice has discovered that they could be using the ASCII code of the lowercase letters.
+Los mensajes son cadenas de texto que incluyen números enteros muy largos y espacios en blanco. Aunque los números no parecen tener sentido... una chica llamada Alice ha descubierto que podrían usar el código ASCII de las letras en minúscula.
 
-With her method she has managed to decipher these messages:
+Con su método ha conseguido descifrar estos mensajes:
 
 ```
-109105100117 -> midu
-9911110010110998101114 -> codember
-9911110010110998101114 109105100117 -> codember midu
-11210897121 116101116114105115 -> play tetris
+"109105100117" -> midu
+"9911110010110998101114" -> codember
+"9911110010110998101114 109105100117" -> codember midu
+"11210897121 116101116114105115" -> play tetris
 ```
 
-But they intercepted a longer message that they couldn't and they told us that it is very important that we decipher it:
+Pero han interceptado un mensaje más largo que no han podido y nos han dicho que es muy importante que lo descifremos:
 
 ```
 11610497110107115 102111114 11210897121105110103 9911110010110998101114 11210810197115101 11510497114101
 ```
 
-Now that you know this use the following file that contains the encrypted message:
+Ahora que ya sabes esto, utiliza el siguiente archivo para descubrir lo que dice el mensaje:
 https://codember.dev/encrypted.txt
 
-## Hints
+### Pistas
 
--   Remember that the messages are text strings made up of numbers and spaces.
--   It seems that the numbers have something to do with the ASCII code.
--   Te whitespaces seem to be just whitespaces...
--   How to submit the solution
--   Use the command "submit" to send your solution with the decrypted phrase, in lowercase and respecting the spaces. For example:
+-   Recuerda que los mensajes son cadenas de texto conformadas por números y espacios en blanco.
+-   Parece que los números tienen algo que ver con el código ASCII.
+-   Los espacios en blanco parece que son simplemente espacios...
 
-## Test the solution
+## Probar la solución
 
-Si quieres probar la solucion a este reto haz un `clone` a este repo o descarga el código. Luego ejecuta el siguiente commando:
+Si quieres probar la solución a este reto haz un `clone` a este repo o descarga el código. Luego ejecuta el siguiente commando:
 
 ```
-node challenge-01
+node challenge02
 ```
