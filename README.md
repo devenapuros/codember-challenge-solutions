@@ -17,7 +17,20 @@ Cada reto tiene su propio directorio donde podrás encontrar la descripción del
 
 ```
 .
-├── challenge-01
+├── challenge01
+│  ├── index.js
+│  └── README.md
+│
+├── challenge02
+│  ├── index.js
+│  └── README.md
+│
+├── challenge03
+│  ├── index.js
+│  └── data.json
+│  └── README.md
+│
+├── challenge04
 │  ├── index.js
 │  └── README.md
 │
