@@ -53,7 +53,7 @@ node <challenge_directory>
 Por ejemplo para probar el primer challenge:
 
 ```
-node challenge-01
+node challenge01
 ```
 
 ## Participa en el Codember
