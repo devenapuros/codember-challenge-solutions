@@ -34,6 +34,10 @@ Cada reto tiene su propio directorio donde podrás encontrar la descripción del
 │  ├── index.js
 │  └── README.md
 │
+├── challenge05
+│  ├── index.js
+│  └── README.md
+│
 ├── package.json
 └── README.md
 ```
@@ -54,4 +58,4 @@ node challenge-01
 
 ## Participa en el Codember
 
-No te quedes sin participar en el evento. Cada semana se publica un nuevo reto de programación. Recuerda que si resuelves todos los retos podras ganar un premio sorpresa 🎁🔥. Participa aquí 👉: [codember.dev](https://comdember.dev)
+No te quedes sin participar en el evento. Durante el mes de noviembre, cada semana se publica un nuevo reto de programación. Recuerda que si resuelves todos los retos podras ganar un premio sorpresa 🎁🔥. Participa aquí 👉: [codember.dev](https://comdember.dev)
